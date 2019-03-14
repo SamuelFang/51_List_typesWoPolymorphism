@@ -1,6 +1,14 @@
 public class Element {
-    public int    intElement;
-    public double doubleElement;
-    public String stringElement;
-    public int typeElement;
+    private int type;
+    private int intElement;
+    private double doubleElement;
+    private String stringElement;
+
+    public Element(int typevalue, int intVal, double doubleVal, String stringVal){
+        type = typevalue;
+        intElement = intVal;
+        doubleElement = doubleVal;
+        stringElement = stringVal;
+    }
+
 }

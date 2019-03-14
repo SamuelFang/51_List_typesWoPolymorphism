@@ -10,6 +10,7 @@ public class List_inArraySlots {
     private double[] doubleElements;
     private String[] stringElements;
     private int filledElements; // the number of elements in this list
+    private Element[] listt;
     
     /* type identifier for each element
        That is, typeOfElements[i] == 0 means element i is an integer;
@@ -112,8 +113,9 @@ public class List_inArraySlots {
         
      }
      
-     public Element get( int index ) {
-        return typeOfElements[index];
-     }
+     public Element get(int index){
+        return listt[index];
+    }
+
     
 }
